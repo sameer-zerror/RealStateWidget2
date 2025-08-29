@@ -1,0 +1,406 @@
+.section {
+  padding:2rem 0;
+  /* position: relative; */
+   margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.content {
+  position: relative;
+  width: 100%;
+  /* max-width: 1312px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+.advant__tabs {
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+.advant__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.advant__img_wrap {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.advant__img.active {
+  height: 100%;
+}
+.advant__img.mod__3 {
+  z-index: 3;
+}
+.advant__img.mod__4 {
+  z-index: 4;
+}
+.w_layout_grid {
+  /* display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px; */
+}
+.grid {
+  /* width: 100%;
+  justify-content: space-between;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* @media screen and (max-width: 991px) {
+    .grid {
+        grid-column-gap: 24px;
+    }
+} */
+.grid.mod__advant {
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.advant__card_wrap {
+  width: 100%;
+  /* padding-right: 76px; */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: flex;
+  justify-content: flex-end;
+}
+.advant__card {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: -56px;
+  padding: 40px 20px;
+  border: 1px solid #101010;
+  background-color: #f3e9e4;
+  transition: 0.5s;
+  margin-right: 10px;
+  /* margin-left: auto; */
+}
+@media screen and (max-width: 991px) {
+  .advant__card_wrap {
+    padding-right: 0;
+  }
+}
+
+.advant__card_wrap.active {
+  opacity: 1;
+}
+.advant__card_img_wrap {
+  position: relative;
+  width: 100%;
+  height: 164px;
+  /* max-width: 256px; */
+  margin-bottom: 40px;
+}
+.advant__card_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.advant__card_img.active {
+  height: 100%;
+}
+.advant__card_img.mod__2 {
+  z-index: 2;
+}
+.advant__card_img.mod__3 {
+  z-index: 3;
+}
+.advant__card_img.mod__4 {
+  z-index: 4;
+}
+.advant__card_txt_wrap {
+  position: relative;
+  min-height: 190px;
+}
+.advant__card_txt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #f3e9e4;
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.advant__card_txt.active {
+  opacity: 1;
+}
+.advant__card_title {
+  margin-bottom: 16px;
+  /* font-family: neue-haas-grotesk-display, sans-serif; */
+  font-size: 22px;
+  line-height: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.advant__card_p {
+  margin-bottom: 0;
+  color: rgba(16, 16, 16, 0.6);
+  margin-top: 0;
+  line-height: 1;
+  font-size: 1.1rem !important;
+}
+.advant__card.active {
+  bottom: 0;
+  opacity: 1;
+}
+.advant__card_txt.mod__2 {
+  z-index: 2;
+}
+.advant__card_txt.mod__3 {
+  z-index: 3;
+}
+.advant__card_txt.mod__4 {
+  z-index: 4;
+}
+
+/* tabnav */
+.advant__tabs_nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 24px;
+  margin-left: 76px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.btn_tag {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+    min-width: 110px;
+    margin-right: 16px;
+    padding: 4px 20px 5px 16px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border: 1px solid #101010;
+    border-radius: 100px;
+    background-color: transparent;
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn_tag.active, .btn_tag.w__current, .btn_tag:hover {
+    background-color: #101010;
+    color: #e1d4d5;
+}
+.btn_tag__star {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-image: url(https://assets.website-files.com/61b711f830d358f225addd55/61c062c465e8e156126cb6e8_ico_star2-menu.svg);
+    background-position: 0 0;
+    background-size: auto;
+    -webkit-filter: contrast(128%) invert(100%) grayscale(100%);
+    filter: contrast(128%) invert(100%) grayscale(100%);
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.btn_tag.active .btn_tag__star {
+    -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
+    filter: contrast(100%) invert(0%) grayscale(0%);
+}
+.btn_tag:hover .btn_tag__star {
+    -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
+    filter: contrast(100%) invert(0%) grayscale(0%);
+}
+/* tabnav */
+
+@media screen and (max-width: 991px) {
+  .section {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  /* .order3 {
+    grid-column-start: 2;
+  } */
+  .advant__card_img_wrap {
+    margin-bottom: 24px;
+  }
+  /* .grid {
+        grid-column-gap: 24px;
+    } */
+  /* .advant__card_wrap {
+    padding-right: 0;
+  } */
+  .advant__card {
+    bottom: 0;
+    max-width: 270px;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 24px;
+  }
+  .advant__img {
+    height: 100%;
+  }
+  .advant__tabs {
+    height: 500px;
+  }
+  .advant__tabs_nav {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 900px) {
+  .section {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section {
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+  }
+  .section.section__advant {
+    /* overflow: hidden; */
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .content.mod__advant {
+    /* padding-right: 24px;
+    padding-left: 24px; */
+  }
+  .order3 {
+    margin: 0 1rem;
+  }
+
+  .grid.mod__advant {
+    bottom: -170px;
+  }
+  .advant__card {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .advant__img_wrap {
+    position: relative;
+    /* width: 810px; */
+  }
+  .advant__img {
+    height: 0%;
+  }
+  .advant__tabs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 400px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .advant__card_img_wrap {
+    height: 132px;
+  }
+  .advant__card_txt_wrap {
+    min-height: 160px;
+  }
+  .advant__card_title {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+      .advant__tabs_nav {
+        margin-top: 200px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .btn_tag {
+        min-width: auto;
+        margin-right: 8px;
+        margin-left: 8px;
+        padding-right: 16px;
+        padding-left: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .advant__tabs_nav {
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width: 479px) {
+        .advant__tabs_nav {
+        /* margin-right: -24px; */
+        margin-left: -24px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .btn_tag {
+        margin-right: 16px;
+        margin-left: 0;
+    }
+}
