@@ -17,7 +17,7 @@ const miniImages = [
 
 const texts = [
   {
-    title: "flexible",
+    title: "Flexible",
     description:
       "Architectural firm focused on creating strong, beautiful buildings with spaces that are flexible, beautiful, and appropriate for the needs of its occupants.",
   },

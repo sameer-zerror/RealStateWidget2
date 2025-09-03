@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import style from "@/components/Home.module.css";
 
-
 const Hero = ({
   heroImg,
   position,
@@ -25,14 +24,16 @@ const Hero = ({
                   <div
                     className={`${style.hoverDiv} ${style.template1CustomHeight}`}
                   >
-                    <img src="https://cdn.esquireindia.co.in/article/2025-07-18T07%3A06%3A57.332Z-LEAD.jpg" alt="" />
+                    <img
+                      src="https://www.lodhagroup.com/sites/default/files/projects/banner/Spotlight_1903X800_0.webp"
+                      alt=""
+                    />
                     {/* <Image
                       src={heroImg ?? ""}
                       fill
                       alt={altName ?? "Articles Banner"}
                       priority={true}
                     /> */}
-                    
                   </div>
                 </div>
               </div>
@@ -50,7 +51,7 @@ const Hero = ({
                   {hasHtmlTags(courtesy) ? htmlParser(courtesy) : courtesy}
                 </span>
               )} */}
-              <span className={style.courtesy}>Mercedes-Benz E-Class</span>
+              <span className={style.courtesy}> Towers</span>
             </div>
             {/* <StaticAds
               adUnits={[
@@ -88,13 +89,13 @@ const Hero = ({
               })} */}
               <li className={style.breadcrumItem}>
                 <Link href={""} style={{ textDecoration: "underline" }}>
-                <span>
-                  Tech & Auto</span></Link>
+                  <span>Tech & Auto</span>
+                </Link>
               </li>
               <li className={style.breadcrumItem}>
                 <Link href={""} style={{ textDecoration: "underline" }}>
-                <span>
-                  Cars & Bikes</span></Link>
+                  <span>Buildings & Towers</span>
+                </Link>
               </li>
             </ol>
           </div>

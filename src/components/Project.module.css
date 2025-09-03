@@ -382,11 +382,7 @@
         padding-left: 12px;
     }
 }
-@media (max-width: 480px) {
-    .advant__tabs_nav {
-        overflow-x: scroll;
-    }
-}
+
 @media screen and (max-width: 479px) {
         .advant__tabs_nav {
         /* margin-right: -24px; */
@@ -402,5 +398,10 @@
     .btn_tag {
         margin-right: 16px;
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .advant__tabs_nav {
+        overflow-x: scroll;
     }
 }

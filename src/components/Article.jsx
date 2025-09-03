@@ -6,9 +6,7 @@ const Article = () => {
   return (
     <div>
       <Hero />
-      <div className="ad-flex-all">
-        <div id="div-gpt-ad-stories-top" data-cy="Ad" className="ad-text"></div>
-      </div>
+    
       <div className="p-relative">
         <div className="follows-sticky">
           <div className="follows-us-div">
@@ -96,8 +94,8 @@ const Article = () => {
                     <div className="col-md-12">
                       <div className="contentSec">
                         <h1 className="heading">
-                          The Mercedes-Benz E-Class: First Among Cars And A
-                          Benchmark In Luxury
+                          A sculptural statement so powerful, it has transformed
+                          Mumbai's skyline forever.
                         </h1>
                         <p className="subheading">
                           For Esquire India’s Auto Issue, we look at what
@@ -123,35 +121,45 @@ const Article = () => {
                       <div className="content">
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            COCOONED IN THE COMFORT OF THE BACK SEAT of the{" "}
+                            A magnificent 17-acre estate ensconced in the Mumbai
+                            Mile, the glittering stretch that comprises some of
+                            Mumbai’s finest residences, business spaces and
+                            luxury hotels, Lodha World Towers embodies global
+                            standards in luxury. The grand landscaped entrance
+                            courtyard extends over almost 100,000 sq. ft.
                           </span>
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.esquireindia.co.in/tag/mercedes"
                           >
-                            <span>Mercedes</span>
+                            {/* <span>Mercedes</span> */}
                           </a>
                           <span>
-                            -Benz E-Class, wafting smoothly towards the airport,
-                            I find myself enveloped by the warm glow of the
-                            ambient lighting, immersed in the sheer indulgence
-                            that surrounds me. It’s in moments like these—quiet,
-                            uninterrupted—that one truly absorbs the brilliance
-                            of this machine.{" "}
+                            Armani/ Casa, one of the world's best-known names in
+                            interior design; Pei Cobb Freed, world-renowned
+                            architects; LERA, globally-acclaimed structural
+                            engineers; Ken Smith, internationally awarded
+                            landscape designer. Lodha World Towers represents a
+                            historic meeting of some of the world’s greatest
+                            legends.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            As I glance around, soaking in the finely appointed
-                            cabin, I’m struck once again by just how
-                            awe-inspiring it is to sit in the back seat of an
-                            E-Class. It’s a sensation that never fades, no
-                            matter how many times I’ve experienced it. In India,
-                            owning a car bearing the iconic three-pointed star
-                            has long been seen as a symbol of success, prestige
-                            and aspiration.
+                            Lodha World Towers hosts Club W: 5 levels of
+                            entertainment, sports, and endless diversions. Each
+                            level of Club W is dedicated to a different and
+                            wholly immersive experience. Here you will find a
+                            top-notch gym to work out in and a spa that will
+                            help you unwind. A private theatre for evenings with
+                            close friends, and a stately ballroom for grander
+                            events. An indoor pool with cabanas made for privacy
+                            and leisure, and an outdoor poolside with a separate
+                            children’s pool for lively weekends. As varied as
+                            these spaces are, they all have that air of ritzy
+                            elegance that permeates through Lodha World Towers.
                           </span>
                         </p>
                         <div>
@@ -175,7 +183,7 @@ const Article = () => {
                                   width: "100%",
                                   height: "auto",
                                 }}
-                                src="https://cdn.esquireindia.co.in/editor-images/2025-07-18T07%3A06%3A33.290Z-Inline1.jpg"
+                                src="https://www.lodhagroup.com/sites/default/files/projects/banner/Spotlight_1903X800_0.webp"
                               />
                               <div className="photoBy">
                                 <span className="caption" />
@@ -186,46 +194,45 @@ const Article = () => {
                         </div>
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            Among all the models in the Mercedes-Benz lineup,
-                            the E-Class holds a special place in this narrative.
-                            It’s not just a car—it’s a milestone. Over the last
-                            30 years, more than 60,000 units of the E-Class have
-                            found homes across the country. While that number
-                            might not sound massive in broader automotive terms,
-                            it is quite extraordinary for a luxury model in a
-                            market that’s only recently embraced premium
-                            mobility at scale.{" "}
+                            A magnificent 17-acre estate ensconced in the Mumbai
+                            Mile, the glittering stretch that comprises some of
+                            Mumbai’s finest residences, business spaces, and
+                            luxury hotels, Lodha World Towers embodies global
+                            standards in luxury. The Lodha Place is an elegant
+                            boulevard lined with palm trees, boasting some of
+                            the finest gourmet restaurants and a secondary route
+                            to give you seamless connectivity to the Sea Link,
+                            SOBO, and other suburbs.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            The E-Class has consistently been Mercedes-Benz
-                            India’s best-seller and its success only surged
-                            further when the long wheelbase (LWB) variant was
-                            introduced in 2017—a configuration developed
-                            specifically for markets like India and China, where
-                            back-seat comfort reigns supreme. With this, the
-                            E-Class redefined luxury travel for the
-                            chauffeur-driven elite and widened its appeal to
-                            entrepreneurs and families alike. Now, in its latest
-                            avatar unveiled in October 2024, the E-Class raises
-                            the bar yet again.{" "}
+                            Armani/ Casa, one of the world's best-known names in
+                            interior design; Pei Cobb Freed, world-renowned
+                            architects; LERA, globally-acclaimed structural
+                            engineers; Ken Smith, internationally awarded
+                            landscape designer. Lodha World Towers represents a
+                            historic meeting of some of the world’s greatest
+                            legends.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            The newest generation is larger, smarter and more
-                            luxurious than ever. The highlight variant, the E
-                            450 4MATIC, combines power and panache. Its
-                            3.0-litre inline-six turbocharged petrol engine with
-                            mild-hybrid tech delivers a punchy 381 hp and 500 Nm
-                            of torque, ensuring that those who enjoy being
-                            behind the wheel aren’t left wanting.{" "}
+                            Each level of Club W is dedicated to a different and
+                            wholly immersive experience. Here you will find a
+                            top-notch gym to work out in and a spa that will
+                            help you unwind. A private theatre for evenings with
+                            close friends, and a stately ballroom for grander
+                            events. An indoor pool with cabanas made for privacy
+                            and leisure, and an outdoor poolside with a separate
+                            children’s pool for lively weekends. As varied as
+                            these spaces are, they all have that air of ritzy
+                            elegance that permeates through Lodha World Towers.
                           </span>
                         </p>
-                            <Project/>
+                        <Project />
 
                         <div className="StoriesInfo_left_innercntr-full-width">
                           <div
@@ -255,7 +262,7 @@ const Article = () => {
                                       decoding="async"
                                       data-nimg="fill"
                                       className="imgcover"
-                                      src="https://cdn.esquireindia.co.in/article/2025-07-11T08%3A53%3A24.450Z-Lead_09_TUNNEL_PROSP_FRONT_3-lead-vertical.jpg"
+                                      src="https://www.lodhagroup.com/sites/default/files/projects/gallery/Amenities-3_374X374_0_0.webp"
                                       style={{
                                         position: "absolute",
                                         height: "100%",
@@ -267,10 +274,10 @@ const Article = () => {
                                     />
                                   </div>
                                   <div className="related-post-card-content">
-                                    <strong>Cars &amp; Bikes</strong>
+                                    <strong>Buildings &amp; Tower</strong>
+
                                     <h3 className="card-title mb-0">
-                                      Lamborghini Temerario GT3 Is Lighter,
-                                      Faster And Destined For Racing
+                                     A private world of unimaginable luxury, spanning 17 landscaped acres
                                     </h3>
                                     <span className="author">
                                       {" "}
@@ -290,7 +297,7 @@ const Article = () => {
                                       decoding="async"
                                       data-nimg="fill"
                                       className="imgcover"
-                                      src="https://cdn.esquireindia.co.in/article/2025-04-13T09%3A06%3A46.689Z-Lead%20%2829%29.jpg"
+                                      src="https://www.lodhagroup.com/sites/default/files/projects/gallery/Amenities-1_374X374_0_0.webp"
                                       style={{
                                         position: "absolute",
                                         height: "100%",
@@ -302,9 +309,9 @@ const Article = () => {
                                     />
                                   </div>
                                   <div className="related-post-card-content">
-                                    <strong>Cars &amp; Bikes</strong>
+                                    <strong>Buildings &amp; Tower</strong>
                                     <h3 className="card-title mb-0">
-                                      6 Endurance Bikes To Lookout For In 2025
+                                      Life at Lodha World Towers
                                     </h3>
                                     <span className="author">
                                       {" "}
@@ -318,52 +325,35 @@ const Article = () => {
                         </div>
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            It whips you to 100 in just 4.5 seconds. Paired with
-                            Mercedes’ 9G-TRONIC automatic transmission and
-                            4MATIC all-wheel drive, it offers a buttery smooth,
-                            refined but punchy drive. But of course, the back
-                            seat is where the E-Class LWB truly dazzles. The
-                            rear cabin is nothing short of a sanctuary. In the
-                            new generation, the seats recline up to 36 degrees,
-                            include extendable thigh support and come with “boss
-                            mode,” allowing the rear passenger to push the front
-                            seat forward with the touch of a button, fully
-                            stretching out in ultimate relaxation.{" "}
+                           Armani/ Casa, one of the world's best-known names in
+                            interior design; Pei Cobb Freed, world-renowned
+                            architects; LERA, globally-acclaimed structural
+                            engineers; Ken Smith, internationally awarded
+                            landscape designer. Lodha World Towers represents a
+                            historic meeting of some of the world’s greatest
+                            legends.
                           </span>
                         </p>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            Despite the rise of SUVs, the E-Class continues to
-                            embody timeless elegance. Its stately design,
-                            complete with a chrome-heavy grille, sleek LED DRLs
-                            and a flowing silhouette, commands attention
-                            wherever it goes. Arriving in an E-Class still
-                            elicits a head-turn, a held-open door and an almost
-                            ceremonial welcome from onlookers who’ve long dreamt
-                            of being in your seat.
+                          Each level of Club W is dedicated to a different and wholly immersive experience. Here you will find a top-notch gym to work out in and a spa that will help you unwind. A private theatre for evenings with close friends, and a stately ballroom for grander events. An indoor pool with cabanas made for privacy and leisure, and an outdoor poolside with a separate children’s pool for lively weekends. As varied as these spaces are, they all have that air of ritzy elegance that permeates through Lodha World Towers.
                           </span>
                         </p>
                         <div>
-                          <div className="ad-flex-all">
+                          {/* <div className="ad-flex-all">
                             <div
                               id="div-gpt-ad-stories-middle-12"
                               data-cy="Ad"
                               className="ad-text"
                               style={{ margin: "30px auto" }}
                             />
-                          </div>
+                          </div> */}
                         </div>
                         <p style={{ textAlign: "left" }} />
                         <p style={{ textAlign: "left" }}>
                           <span>
-                            As I lean back, fully reclined and insulated from
-                            the chaos outside, I’m reminded again why this car
-                            has endured. Few vehicles can blend tradition,
-                            innovation, and indulgence so effortlessly. The
-                            Mercedes-Benz E-Class isn’t just transportation.
-                            It’s an experience, a status symbol, and for many, a
-                            coveted car.
+                          Lodha World Towers hosts Club W: 5 levels of entertainment, sports, and endless diversions. Each level of Club W is dedicated to a different and wholly immersive experience. Here you will find a top-notch gym to work out in and a spa that will help you unwind. A private theatre for evenings with close friends, and a stately ballroom for grander events. An indoor pool with cabanas made for privacy and leisure, and an outdoor poolside with a separate children’s pool for lively weekends. As varied as these spaces are, they all have that air of ritzy elegance that permeates through Lodha World Towers.
                           </span>
                         </p>
                         <div>
@@ -390,20 +380,17 @@ const Article = () => {
                                   width: "100%",
                                   height: "auto",
                                 }}
-                                src="https://cdn.esquireindia.co.in/editor-images/2025-07-18T07%3A08%3A38.725Z-1Ferrari%20296%20GTB%20%C3%AF%C2%80%C2%A2%20GTS.jpg"
+                                src="https://www.lodhagroup.com/sites/default/files/2024-04/USP_3_527X468.webp"
                               />
                               <div className="photoBy">
                                 <span className="caption">
-                                  Ferrari 296 GTB / GTS{" "}
+                                  Towers
                                 </span>
                                 <span className="courtesy" />
                               </div>
                             </div>
                           </div>
                         </div>
-                      
-                        
-                        
                       </div>
                     </div>
                   </div>
