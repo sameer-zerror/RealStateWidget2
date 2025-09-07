@@ -183,7 +183,7 @@ const Article = () => {
                                   width: "100%",
                                   height: "auto",
                                 }}
-                                src="https://www.lodhagroup.com/sites/default/files/projects/banner/Spotlight_1903X800_0.webp"
+                                src="https://www.lodhagroup.com/sites/default/files/2024-04/USP_1_527X468.webp"
                               />
                               <div className="photoBy">
                                 <span className="caption" />
@@ -233,7 +233,6 @@ const Article = () => {
                           </span>
                         </p>
                         <Project />
-
                         <div className="StoriesInfo_left_innercntr-full-width">
                           <div
                             className="related-post-container"

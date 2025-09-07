@@ -1,8 +1,9 @@
 .section {
-  padding:2rem 0;
+  /* padding: 2rem 0; */
   /* position: relative; */
-   margin-left: 0 !important;
+  margin-left: 0 !important;
   margin-right: 0 !important;
+  padding: 20px;
 }
 .content {
   position: relative;
@@ -14,7 +15,7 @@
 .advant__tabs {
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 600px;
 }
 .advant__img {
   position: absolute;
@@ -100,7 +101,7 @@
   border: 1px solid #101010;
   background-color: #f3e9e4;
   transition: 0.5s;
-  margin-right: 10px;
+  margin-right: 5rem;
   /* margin-left: auto; */
 }
 @media screen and (max-width: 991px) {
@@ -178,8 +179,8 @@
   margin-bottom: 0;
   color: rgba(16, 16, 16, 0.6);
   margin-top: 0;
-  line-height: 1;
-  font-size: 1.1rem !important;
+  line-height: 1 !important;
+  font-size: 1.2rem !important;
 }
 .advant__card.active {
   bottom: 0;
@@ -209,62 +210,63 @@
   align-items: center;
 }
 .btn_tag {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex
-;
-    min-width: 110px;
-    margin-right: 16px;
-    padding: 4px 20px 5px 16px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    border: 1px solid #101010;
-    border-radius: 100px;
-    background-color: transparent;
-    -webkit-transition: .2s;
-    transition: .2s;
-    font-weight: 500;
-    cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 110px;
+  margin-right: 16px;
+  padding: 4px 20px 5px 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border: 1px solid #101010;
+  border-radius: 100px;
+  background-color: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-weight: 500;
+  cursor: pointer;
 }
-.btn_tag.active, .btn_tag.w__current, .btn_tag:hover {
-    background-color: #101010;
-    color: #e1d4d5;
+.btn_tag.active,
+.btn_tag.w__current,
+.btn_tag:hover {
+  background-color: #101010;
+  color: #e1d4d5;
 }
 .btn_tag__star {
-    display: block;
-    width: 10px;
-    height: 10px;
-    margin-right: 6px;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    background-image: url(https://assets.website-files.com/61b711f830d358f225addd55/61c062c465e8e156126cb6e8_ico_star2-menu.svg);
-    background-position: 0 0;
-    background-size: auto;
-    -webkit-filter: contrast(128%) invert(100%) grayscale(100%);
-    filter: contrast(128%) invert(100%) grayscale(100%);
-    -webkit-transition: .2s;
-    transition: .2s;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url(https://assets.website-files.com/61b711f830d358f225addd55/61c062c465e8e156126cb6e8_ico_star2-menu.svg);
+  background-position: 0 0;
+  background-size: auto;
+  -webkit-filter: contrast(128%) invert(100%) grayscale(100%);
+  filter: contrast(128%) invert(100%) grayscale(100%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 .btn_tag.active .btn_tag__star {
-    -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
-    filter: contrast(100%) invert(0%) grayscale(0%);
+  -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
+  filter: contrast(100%) invert(0%) grayscale(0%);
 }
 .btn_tag:hover .btn_tag__star {
-    -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
-    filter: contrast(100%) invert(0%) grayscale(0%);
+  -webkit-filter: contrast(100%) invert(0%) grayscale(0%);
+  filter: contrast(100%) invert(0%) grayscale(0%);
 }
 /* tabnav */
 
@@ -297,16 +299,19 @@
     height: 100%;
   }
   .advant__tabs {
-    height: 500px;
+    height: 550px;
   }
   .advant__tabs_nav {
-        margin-left: 0;
-    }
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 900px) {
   .section {
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+  .advant__card {
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -346,7 +351,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 400px;
+    height: 350px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -367,41 +372,41 @@
     margin-bottom: 12px;
     font-size: 18px;
   }
-      .advant__tabs_nav {
-        margin-top: 200px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .btn_tag {
-        min-width: auto;
-        margin-right: 8px;
-        margin-left: 8px;
-        padding-right: 16px;
-        padding-left: 12px;
-    }
+  .advant__tabs_nav {
+    margin-top: 200px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .btn_tag {
+    min-width: auto;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-right: 16px;
+    padding-left: 12px;
+  }
 }
 
 @media screen and (max-width: 479px) {
-        .advant__tabs_nav {
-        /* margin-right: -24px; */
-        margin-left: -24px;
-        padding-right: 24px;
-        padding-bottom: 16px;
-        padding-left: 24px;
-        -webkit-box-pack: start;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-    .btn_tag {
-        margin-right: 16px;
-        margin-left: 0;
-    }
+  .advant__tabs_nav {
+    /* margin-right: -24px; */
+    margin-left: -24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .btn_tag {
+    margin-right: 16px;
+    margin-left: 0;
+  }
 }
 @media screen and (max-width: 480px) {
-    .advant__tabs_nav {
-        overflow-x: scroll;
-    }
+  .advant__tabs_nav {
+    overflow-x: scroll;
+  }
 }
